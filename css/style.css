@@ -1,0 +1,48 @@
+input{
+	width: 100%;
+	height: 50px;
+	font-weight: 700;
+	margin: 10px 0;
+	border:none;
+}
+
+
+
+
+.calculator{
+	width: 300px;
+	margin: auto;
+	margin-top: 150px;
+	display: flex;
+	flex-wrap: wrap;
+    box-shadow: 1px 1px 10px #000000b0;
+    padding-bottom: 20px;
+    padding: 20px;
+}
+
+button{
+	border:none;
+	width: 25%;
+	height: 70px;
+	font-weight: 700;
+	transition:.3s;
+}
+button:hover{
+    background-color:#00ff4e;
+    border-radius: 50px;
+}
+button:focus{
+	outline:none;
+}
+
+.clr{
+	color: red;
+}
+
+.equal{
+	color: #00ff4e;
+}
+
+.equal:hover{
+	color: black;
+}

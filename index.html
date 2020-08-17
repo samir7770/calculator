@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="font/css/all.min.css">
+
+    <title>Javascript Basic</title>
+  </head>
+  <body>
+
+
+
+
+
+    <div class="calculator">
+      <input type="text" id="Display"> <br>
+      <button onclick="one()">1</button>
+      <button onclick="two()">2</button>
+      <button onclick="three()">3</button>
+      <button onclick="plus()">+</button>
+
+
+      <button onclick="four()">4</button>
+      <button onclick="five()">5</button>
+      <button onclick="six()">6</button>
+      <button onclick="minus()">-</button>
+
+
+      <button onclick="seven()">7</button>
+      <button onclick="eight()">8</button>
+      <button onclick="nine()">9</button>
+      <button onclick="multi()">x</button>
+
+
+      <button onclick="clr()" class="clr">AC</button>
+      <button onclick="zero()">0</button>
+      <button onclick="equal()" class="equal">=</button>
+      <button onclick="divi()">/</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      
+        function one(){
+          Display.value +=1;
+        }
+        function two(){
+          Display.value +=2;
+        }
+        function three(){
+          Display.value +=3;
+        }
+        function four(){
+          Display.value +=4;
+        }
+        function five(){
+          Display.value +=5;
+        }
+        function six(){
+          Display.value +=6;
+        }
+        function seven(){
+          Display.value +=7;
+        }
+        function eight(){
+          Display.value +=8;
+        }
+        function nine(){
+          Display.value +=9;
+        }
+        function zero(){
+          Display.value +=0;
+        }
+        function plus(){
+          Display.value += "+";
+        }
+        function minus(){
+          Display.value += "-";
+        }
+        function multi(){
+          Display.value += "*";
+        }
+        function divi(){
+          Display.value += "/";
+        }
+        function equal(){
+          Display.value = eval(Display.value);
+        }
+        function clr(){
+          Display.value = "";
+        }
+
+    </script>
+
+  </body>
+</html>
